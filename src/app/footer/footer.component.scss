@@ -1,0 +1,19 @@
+$bg:#fff;
+img{
+width:100px;
+}
+.container-fluid{
+    z-index: 99;
+    bottom: 0;
+    margin-top: 200px;
+    padding-top: 10px;
+    background-color: $bg;
+    
+
+}
+.sss{
+    bottom: 0;
+    img{
+        width:10%
+    }
+}

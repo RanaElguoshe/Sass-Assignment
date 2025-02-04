@@ -1,0 +1,32 @@
+$pos:fixed;
+$b:30px;
+$L:0;
+$t:0;
+$main-color:#F9FAFB;
+$W:150px;
+$width:250px;
+$height:100vh;
+$imgWidth:200px;
+$btnColor:#F29724;
+$btnHeight:35px;
+$btnWidth:220px;
+$border: 2px solid #F29724;
+$border-radius: 5px;
+$pad:10px;
+$blkColor:#000;
+$mar:60px;
+$f-size:20px;
+
+@mixin basic($col,$b-color){
+    color:$col;
+    background-color: $b-color;
+}
+.common{
+    width: $btnWidth;
+    border:$border;
+    border-radius:$border-radius;
+    height: $btnHeight;
+    margin:$pad;
+    border-radius: 10px;
+    font-size: $f-size;
+}

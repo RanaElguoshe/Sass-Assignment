@@ -1,0 +1,35 @@
+@import "variables.scss";
+.container-fluid{
+    //margin-left:0;
+ padding: 0;
+    z-index: -1 ;
+
+}
+.styling{
+    top: $t;
+    bottom: $b;
+    left:$L;
+position:$pos;
+background-color: $main-color;
+
+width:$width;
+height:$height;
+
+$W:100px;
+}
+img{
+    width:$imgWidth;
+}
+.butFirst{
+@include basic($main-color,$btnColor);
+ @extend .common
+ 
+
+}
+.but{
+    @include  basic($blkColor,$main-color);
+    @extend .common;
+    border:.5px solid #A0A7B2;
+
+ 
+}

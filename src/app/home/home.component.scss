@@ -1,0 +1,66 @@
+// @import "//src/styles.scss";
+
+$pad:230px;
+$main-bg:#F4F2EE;
+$h:300px;
+$bg:#fff;
+
+.container{
+    padding-left: $pad;
+    background-color: $main-bg;
+}
+
+
+@keyframes rotation {
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+    .card{
+        transition: all .7s;
+        
+        &:hover {
+         transform: scale(1.1);
+        img{
+            animation: rotation 2s infinite linear;
+
+        //    transform: rotate(350deg)
+          // transform: rotateY(3.142rad);
+            
+         }
+        }
+        
+     position: relative;
+        height: $h;
+        background-color:$bg;
+        border-radius: 30px;
+        box-shadow: #fff;
+
+       
+    }
+.layer{
+    position: absolute;
+    top:-40px;
+    left:10%;
+}
+img{
+    border-radius: 50%;
+    width: 80%;
+}
+.text{
+    margin-top: 50%;
+}
+button{
+    background-color: #21BA75;
+    width: 130px;
+    height: 70px;
+    border: none {
+    radius:30px;
+    }
+    color:$bg;
+    font-size: 20px;
+}

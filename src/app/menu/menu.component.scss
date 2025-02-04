@@ -1,0 +1,38 @@
+
+@import "allvaribles";
+
+.container{
+    margin-left:$mar;
+}
+h2{
+color: rgb(131,58,180);
+}
+button{
+margin-left:$marBtn;
+margin-bottom: $mar-bot;
+border:$bor;
+border-radius:$bor-rad;
+width: $btnwid;
+height: $btnheight;
+padding:$pad;
+background-color: $main-color;
+}
+// .cedarville-cursive-regular {
+//     font-family: "Cedarville Cursive", serif;
+//     font-weight: 400;
+//     font-style: normal;
+//   }
+  
+a{
+font: {
+    family: $font-family;
+    weight: $font-weight;
+    decoration: none;
+    size: 16px;
+}
+ color:$a_color;
+ text-decoration: none;
+ line-height: 24px;
+    
+}
+
